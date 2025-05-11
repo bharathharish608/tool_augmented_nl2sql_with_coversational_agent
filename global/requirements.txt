@@ -1,0 +1,11 @@
+# Global shared dependencies for NL2SQL Pipeline
+anthropic>=0.7.7  # For Claude API (used across modules)
+pydantic>=2.0    # For configuration management
+sqlglot>=18.0.0  # For SQL parsing and validation
+python-dotenv>=1.0.0  # For environment variable management
+
+# Core utilities
+numpy>=1.24.0
+pandas>=2.0.0
+tqdm>=4.65.0     # For progress bars
+loguru>=0.7.0    # For logging
